@@ -9,7 +9,7 @@
 | 최초 공개일 | 2026-07-07 |
 | 연구일 | 2026-08-06 |
 | 정리·발표 | 김웅곤 (`kimwoonggon`) |
-| 발표자료 | [PDF 열기](nemotron-labs-diffusion-paper-review.pdf) · 25쪽 |
+| 발표자료 | [PDF 열기](nemotron-labs-diffusion-paper-review.pdf) · 37쪽 |
 
 ## 한 문장 요약
 
@@ -32,6 +32,6 @@ AR과 masked discrete diffusion을 하나의 backbone에서 공동 학습해 AR,
 
 ## 발표자료 구성
 
-AR 병목 → 텍스트 diffusion → 공동 학습 → tri-mode inference → sampler와 self-speculation → 실제 성능 → 한계와 열린 문제 순으로 구성했다.
+AR 병목 → masked discrete diffusion → dual-stream 공동 학습 → tri-mode inference → sampler와 self-speculation → Linear/Quadratic SS → 실제 하드웨어 성능 → SOL oracle과 sampler headroom → 한계와 열린 문제 순으로 구성했다.
 
 [← 전체 연구 목록으로 돌아가기](../../README.md)
