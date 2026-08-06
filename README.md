@@ -14,11 +14,11 @@ LLM 논문을 읽고 **핵심 아이디어, 시스템 구조, 수식, 실험 결
 
 최신 연구가 위에 오도록 정리했습니다.
 
-| 연구일 | 논문 | 핵심 주제 | 자료 | 발표자 |
+| 연구일 | 논문 | 핵심 주제 | 자료 | 발&#8288;표&#8288;자 |
 |---|---|---|---|---|
-| 2026-08-06 | [Nemotron-Labs-Diffusion](https://arxiv.org/abs/2607.05722) | AR·diffusion·self-speculation을 하나의 모델로 통합 | [연구 요약](studies/2026-08-06-nemotron-labs-diffusion/README.md) · [발표 PDF](studies/2026-08-06-nemotron-labs-diffusion/nemotron-labs-diffusion-paper-review.pdf) | [김웅곤](https://github.com/kimwoonggon) |
-| 2026-07-30 | [Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding](https://arxiv.org/abs/2604.26779) | RL rollout에 speculative decoding을 시스템 단위로 통합 | [연구 요약](studies/2026-07-30-rl-post-training-speculative-decoding/README.md) · [발표 PDF](studies/2026-07-30-rl-post-training-speculative-decoding/rl-post-training-speculative-decoding-paper-review.pdf) · [상세 노트](studies/2026-07-30-rl-post-training-speculative-decoding/study-notes-ko.md) | [김웅곤](https://github.com/kimwoonggon) |
-| 2026-07-23 | [DeepSeek-V4](https://arxiv.org/abs/2606.19348) | 1M 컨텍스트를 위한 압축 attention과 post-training 설계 | [연구 요약](studies/2026-07-23-deepseek-v4/README.md) · [발표 PDF](studies/2026-07-23-deepseek-v4/deepseek-v4-paper-review.pdf) | [김웅곤](https://github.com/kimwoonggon) |
+| 2026-08-06 | [Nemotron-Labs-Diffusion](https://arxiv.org/abs/2607.05722) | AR·diffusion·self-speculation을 하나의 모델로 통합 | [연구 요약](studies/2026-08-06-nemotron-labs-diffusion/README.md) · [발표 PDF](studies/2026-08-06-nemotron-labs-diffusion/nemotron-labs-diffusion-paper-review.pdf) | [김&#8288;웅&#8288;곤](https://github.com/kimwoonggon) |
+| 2026-07-30 | [Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding](https://arxiv.org/abs/2604.26779) | RL rollout에 speculative decoding을 시스템 단위로 통합 | [연구 요약](studies/2026-07-30-rl-post-training-speculative-decoding/README.md) · [발표 PDF](studies/2026-07-30-rl-post-training-speculative-decoding/rl-post-training-speculative-decoding-paper-review.pdf) · [상세 노트](studies/2026-07-30-rl-post-training-speculative-decoding/study-notes-ko.md) | [김&#8288;웅&#8288;곤](https://github.com/kimwoonggon) |
+| 2026-07-23 | [DeepSeek-V4](https://arxiv.org/abs/2606.19348) | 1M 컨텍스트를 위한 압축 attention과 post-training 설계 | [연구 요약](studies/2026-07-23-deepseek-v4/README.md) · [발표 PDF](studies/2026-07-23-deepseek-v4/deepseek-v4-paper-review.pdf) | [김&#8288;웅&#8288;곤](https://github.com/kimwoonggon) |
 
 ## 빠르게 보는 법
 
