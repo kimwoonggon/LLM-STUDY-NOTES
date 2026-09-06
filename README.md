@@ -2,10 +2,10 @@
 
 LLM 논문을 읽고 **핵심 아이디어, 시스템 구조, 수식, 실험 결과, 한계**를 한국어로 정리한 연구 아카이브입니다.
 
-![Studies](https://img.shields.io/badge/studies-5-2563eb?style=flat-square)
+![Studies](https://img.shields.io/badge/studies-6-2563eb?style=flat-square)
 ![Language](https://img.shields.io/badge/language-Korean-0f766e?style=flat-square)
 ![Format](https://img.shields.io/badge/slides-PDF-dc2626?style=flat-square)
-![Last update](https://img.shields.io/badge/last_update-2026--08--27-475569?style=flat-square)
+![Last update](https://img.shields.io/badge/last_update-2026--09--06-475569?style=flat-square)
 
 > 정리자와 발표자는 각 연구 항목에 별도로 기록합니다.<br>
 > 발표자료는 GitHub에서 바로 열어 보거나 PDF로 내려받을 수 있습니다.
@@ -16,6 +16,7 @@ LLM 논문을 읽고 **핵심 아이디어, 시스템 구조, 수식, 실험 결
 
 | 연구일 | 논문 | 핵심 주제 | 자료 | 발&#8288;표&#8288;자 |
 |---|---|---|---|---|
+| 2026-09-06 | [Quantized Reasoning Models Think They Need to Think Longer, but They Do Not](https://arxiv.org/abs/2606.00206) | 강한 PTQ의 overthinking 오류와 추론 시점 logit penalty | [연구 요약](studies/2026-09-06-quantized-reasoning-overthinking/README.md) · [발표 PDF](studies/2026-09-06-quantized-reasoning-overthinking/quantized-reasoning-models-paper-review.pdf) · [PPTX](studies/2026-09-06-quantized-reasoning-overthinking/quantized-reasoning-models-paper-review.pptx) | [김&#8288;웅&#8288;곤](https://github.com/kimwoonggon) |
 | 2026-08-27 | [Pretraining Large Language Models with NVFP4](https://arxiv.org/abs/2509.25149) | 12B·10T NVFP4 학습과 Training Methodology의 네 가지 안정화 장치 | [연구 요약](studies/2026-08-27-pretraining-llms-nvfp4/README.md) · [발표 PDF](studies/2026-08-27-pretraining-llms-nvfp4/pretraining-llms-with-nvfp4-paper-review.pdf) | [김&#8288;웅&#8288;곤](https://github.com/kimwoonggon) |
 | 2026-08-14 | [NVFP4 Pretraining](https://arxiv.org/abs/2509.25149) + [QAD](https://arxiv.org/abs/2601.20088) | Native FP4 학습 수렴과 post-hoc NVFP4 정확도 복구 | [연구 요약](studies/2026-08-14-nvfp4-qad/README.md) · [발표 PDF](studies/2026-08-14-nvfp4-qad/nvfp4-qad-paper-review.pdf) | [김&#8288;웅&#8288;곤](https://github.com/kimwoonggon) |
 | 2026-08-06 | [Nemotron-Labs-Diffusion](https://arxiv.org/abs/2607.05722) | AR·diffusion·self-speculation을 하나의 모델로 통합 | [연구 요약](studies/2026-08-06-nemotron-labs-diffusion/README.md) · [발표 PDF](studies/2026-08-06-nemotron-labs-diffusion/nemotron-labs-diffusion-paper-review.pdf) | [김&#8288;웅&#8288;곤](https://github.com/kimwoonggon) |
@@ -28,6 +29,7 @@ LLM 논문을 읽고 **핵심 아이디어, 시스템 구조, 수식, 실험 결
 2. **발표 PDF**는 GitHub PDF 뷰어에서 바로 읽을 수 있습니다.
 3. 더 깊은 내용이 있는 경우 **상세 노트**에 발표 준비 과정과 예상 질문을 함께 기록합니다.
 4. 원문 확인이 필요하면 논문 제목을 눌러 공식 arXiv 페이지로 이동합니다.
+5. **PPTX**가 함께 등록된 연구는 편집 가능한 발표 원본도 내려받을 수 있습니다.
 
 ## 폴더 구조
 
@@ -36,12 +38,13 @@ studies/
 ├── YYYY-MM-DD-paper-slug/
 │   ├── README.md                 # 논문 정보와 핵심 연구 요약
 │   ├── *-paper-review.pdf        # 한국어 발표자료
+│   ├── *-paper-review.pptx       # 편집 가능한 발표 원본이 있는 경우
 │   └── study-notes-ko.md         # 상세 학습 노트가 있는 경우
 ```
 
 ## 기록 원칙
 
-- **연구일**은 발표자료를 완성한 날짜를 기준으로 합니다.
+- **연구일**은 발표자료를 완성한 날짜를 기준으로 합니다. 날짜를 확인할 수 없는 경우 자료 등록일을 사용하고 해당 연구에 명시합니다.
 - 발표자와 공동 정리자는 연구별 **발표자** 항목에 함께 기록합니다.
 - 논문의 공개일, 저자, 제목은 공식 arXiv 정보를 기준으로 기록합니다.
 - 수치와 결론은 실제 측정값과 시뮬레이션·전망치를 구분합니다.
